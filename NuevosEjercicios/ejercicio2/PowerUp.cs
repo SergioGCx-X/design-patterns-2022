@@ -1,4 +1,5 @@
 // Refactoriza para implementar el patron de diseño mas adecuado
+//Listo
 public class Powerup{
     public int Id { get; set; }
     public string Name { get; set; }
@@ -7,4 +8,7 @@ public class Powerup{
     public string Effect { get; set; }
     public float Duration { get; set; }
     public List<int> Incompatible { get; set; }
+
+    public static ClaseBuilder GetBuilder() => new ClaseBuilder();
+
 }
