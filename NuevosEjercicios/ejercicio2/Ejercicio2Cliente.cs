@@ -5,7 +5,6 @@ public class Ejercicio2Cliente : IConsumer
     {
     // Refactoriza para implementar el patron de diseño mas adecuado
     //Tratemos con Builder :D
-    Console.WriteLine("Ejecucion estilo builder");
 
        //Powerup powerup = new Powerup();
        //powerup.Id = 1;
